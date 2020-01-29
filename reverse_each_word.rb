@@ -8,5 +8,5 @@ end
 def reverse_each_word (x)
   array = x.split(" ")
   test_array = []
-  array.collect
+  array.collect {|string|
 end
