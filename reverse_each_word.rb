@@ -7,5 +7,5 @@ end
 
 def reverse_each_word (x)
   array = x.split (" ")
-  array. 
+  array.map 
 end
