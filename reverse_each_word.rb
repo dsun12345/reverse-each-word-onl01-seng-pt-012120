@@ -6,5 +6,6 @@ def reverse_each_word (x)
 end
 
 def reverse_each_word (x)
-  x
+  array = x.split (" ")
+  
 end
