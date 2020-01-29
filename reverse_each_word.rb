@@ -7,5 +7,6 @@ end
 
 def reverse_each_word (x)
   array = x.split (" ")
-  array.map {|string| 
+  return_array = []
+  array.map {|string| return_array << string.reverse}
 end
